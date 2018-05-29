@@ -17,6 +17,7 @@ const Home = () => {
       <li><a href="https://github.com/rtucker88" className="icon fab fa-github"><span className="label">Github</span></a></li>
       <li><a href="https://www.linkedin.com/in/rtucker88/" className="icon fab fa-linkedin"><span className="label">LinkedIn</span></a></li>
       <li><a href="https://www.instagram.com/rctucker88/" className="icon fab fa-instagram"><span className="label">Instagram</span></a></li>
+      <li><a href="https://medium.com/@RCTucker88" className="icon fab fa-medium"><span className="label">Medium</span></a></li>
     </ul>
   </div>)
 };
