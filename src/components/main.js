@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Home from './home';
-
 class Main extends React.Component {
   render() {
 

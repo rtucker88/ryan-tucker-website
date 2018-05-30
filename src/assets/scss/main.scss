@@ -33,14 +33,13 @@
 //// Component.
 //
 @import 'components/headshot';
-@import 'components/home';
-//@import 'components/form';
+@import 'components/form';
 //@import 'components/box';
 @import 'components/icon';
 //@import 'components/image';
 @import 'components/list';
 //@import 'components/table';
-//@import 'components/button';
+@import 'components/button';
 
 // Layout.
 
@@ -49,3 +48,7 @@
 @import 'layout/header';
 @import 'layout/main';
 //@import 'layout/footer';
+
+// Pages
+@import 'pages/home';
+@import 'pages/contact';

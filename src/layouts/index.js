@@ -2,18 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import '../assets/scss/main.scss';
+import '../assets/scss/main.scss'
 
 import Header from '../components/header'
-import Main from '../components/main';
 
 const Layout = ({ children, data }) => {
-  const content = (
-    <div id="wrapper">
-      <Main></Main>
-    </div>
-  )
-
   return (
     <div>
       <Helmet
@@ -23,14 +16,14 @@ const Layout = ({ children, data }) => {
           { name: 'keywords', content: 'sample, something' },
         ]}
       />
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
-        {content}
+      <Header siteTitle={data.site.siteMetadata.title}/>
+      <div id="wrapper">
+        {children()}
       </div>
 
       <div id="bg"></div>
     </div>
-  );
+  )
 }
 
 Layout.propTypes = {
