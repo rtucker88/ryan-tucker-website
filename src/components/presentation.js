@@ -9,7 +9,7 @@ const Presentation = ({ description, link, img, title }) => (
       <Img sizes={img} width="30rem"/>
     </a>}
     <h3>{title}</h3>
-    <p>{description}</p>
+    <p dangerouslySetInnerHTML={{ __html: description}}/>
   </div>
 )
 

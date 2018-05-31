@@ -1,32 +1,32 @@
 [
   {
     "title": "Angular 101",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ut. Slides at https://slides.com/ryantucker/angular-101",
+    "description": "I presented at the <a href='https://www.meetup.com/NOVA-MEAN/'>NOVA MEAN Meetup</a> and explained the basics of AngularJS through a presentation and live-coding section. The slides can be found at <a href='https://slides.com/ryantucker/angular-101'>https://slides.com/ryantucker/angular-101</a>.",
     "img": "angular101.png",
     "link": "https://www.youtube.com/embed/mTj_nSSe9Ck?start=390"
   },
   {
     "title": "Introduction to ExpressJS",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ut. Slides at https://slides.com/ryantucker/express-js",
+    "description": "I gave a quick, beginner's level talk about ExpressJS at the <a href='https://www.meetup.com/NOVA-MEAN/'>NOVA MEAN Meetup</a>. The slides can be found at <a href='https://slides.com/ryantucker/express-js'>https://slides.com/ryantucker/express-js</a>.",
     "img": "expressJS.png",
     "link": "https://www.youtube.com/embed/4IHOgBYtjjE?start=210"
   },
   {
     "title": "Angular 2: An Introduction",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ut. ",
+    "description": "Shortly after the initial release of Angular 2, I presented an overview of the upcoming changes to the Angular framework at the <a href='https://www.meetup.com/Nova-Angular/'>NoVA Angular Meetup</a>.",
     "img": "angular2AnIntroduction.png",
     "link": "https://slides.com/ryantucker/deck"
   },
   {
-    "title": "AngularJS and Socket.IO",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ut.",
-    "img": "angularAndSocketIO.png",
-    "link": "https://slides.com/ryantucker/socket-io-and-angular-js"
-  },
-  {
     "title": "AngularJS Style Guides",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ut.",
+    "description": "I presented this lightning talk at the <a href='https://www.meetup.com/Nova-Angular/'>NoVA Angular Meetup</a>. I explained the importance of style guides and how to go about creating one.",
     "img": "angularStyleGuides.png",
     "link": "https://slides.com/ryantucker/angularjs-style-guides"
+  },
+  {
+    "title": "AngularJS and Socket.IO",
+    "description": "In this talk, I explained how to combine the Socket.IO WebSocket library with AngularJS at the <a href='https://www.meetup.com/Nova-Angular/'>NoVA Angular Meetup</a>.",
+    "img": "angularAndSocketIO.png",
+    "link": "https://slides.com/ryantucker/socket-io-and-angular-js"
   }
 ]
