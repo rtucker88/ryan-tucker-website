@@ -1,13 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Img from 'gatsby-image';
 
-const Headshot = ({ src, alt }) => {
-  return (<img className={"headshot"} src={src} alt={alt} />);
-}
-
-Headshot.proptypes = {
-  alt: PropTypes.string,
-  src: PropTypes.string,
-};
+const Headshot = ({ sizes }) => (
+  <div className="headshot">
+    <Img sizes={sizes} />
+  </div>
+)
 
 export default Headshot;

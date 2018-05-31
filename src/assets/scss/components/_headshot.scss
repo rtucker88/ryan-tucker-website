@@ -1,8 +1,11 @@
 .headshot {
-  width: 8rem;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: _palette(border);
-  border-top-width: _size(border-width);
-  border-bottom-width: _size(border-width);
+  width: 12rem;
+
+  img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: _palette(border);
+    border-top-width: _size(border-width);
+    border-bottom-width: _size(border-width);
+  }
 }
