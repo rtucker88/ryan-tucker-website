@@ -57,7 +57,7 @@ class Header extends React.Component {
             <li className="menu"><a onClick={this.openModal}>Menu</a>
             </li>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/portfolio">Portfolio</Link></li>
+            {/*<li><Link to="/portfolio">Portfolio</Link></li>*/}
             <li><Link to="/talks">Talks</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
@@ -72,7 +72,7 @@ class Header extends React.Component {
           <nav>
             <ul>
               <li><Link to="/" onClick={this.closeModal}>Home</Link></li>
-              <li><Link to="/portfolio" onClick={this.closeModal}>Portfolio</Link></li>
+              {/*<li><Link to="/portfolio" onClick={this.closeModal}>Portfolio</Link></li>*/}
               <li><Link to="/talks" onClick={this.closeModal}>Talks</Link></li>
               <li><Link to="/contact" onClick={this.closeModal}>Contact</Link></li>
             </ul>
