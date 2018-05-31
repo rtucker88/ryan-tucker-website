@@ -1,13 +1,22 @@
 #talks {
-  @include vendor('display', 'flex');
-  @include vendor('flex-flow', 'row wrap');
-  @include vendor('justify-content', 'space-around');
-
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding: 2.5rem;
   background-color: #1f1f1f; // TODO: Figure out the black/grey to use
   border-radius: 4px;
   border: 1px solid rgb(204, 204, 204);
   max-width: 72.5rem;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .container {
+    @include vendor('display', 'flex');
+    @include vendor('flex-flow', 'row wrap');
+    @include vendor('justify-content', 'space-around');
+  }
+
+  @include breakpoint(small) {
+    max-width: 100%;
+  }
 }

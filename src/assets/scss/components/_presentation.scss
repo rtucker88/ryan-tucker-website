@@ -14,4 +14,10 @@
   p {
     margin: 0;
   }
+
+  @include breakpoint(small) {
+    img, iframe {
+      max-width: 100%;
+    }
+  }
 }

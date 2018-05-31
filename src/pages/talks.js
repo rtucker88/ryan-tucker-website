@@ -3,11 +3,11 @@ import React from 'react'
 import Presentation from '../components/presentation'
 
 const TalksPage = ({ data }) => {
-  const {allFile, allTalksJson} = data;
+  const { allFile, allTalksJson } = data
   const joinedTalks = allTalksJson.edges.map(({ node }) => {
-    const { name } = node;
+    const { name } = node
 
-    const file = allFile.edges.find(({node}) => node.childImageSharp.sizes.originalName === name);
+    const file = allFile.edges.find(({ node }) => node.childImageSharp.sizes.originalName === name)
 
     return {
       ...node,
@@ -17,13 +17,16 @@ const TalksPage = ({ data }) => {
 
   return (
     <div id="talks">
-      {joinedTalks.map(({ childImageSharp, description, link, title }) => (<Presentation
-        key={title}
-        title={title}
-        link={link}
-        description={description}
-        img={childImageSharp.sizes}
-      />))}
+      <h1>Talks</h1>
+      <div className="container">
+        {joinedTalks.map(({ childImageSharp, description, link, title }) => (<Presentation
+          key={title}
+          title={title}
+          link={link}
+          description={description}
+          img={childImageSharp.sizes}
+        />))}
+      </div>
     </div>
   )
 }

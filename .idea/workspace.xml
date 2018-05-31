@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655c47d3-2f69-451d-99aa-a6d71afc2308" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_404.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_404.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_presentation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_presentation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_talks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_talks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/talks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/talks.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +24,8 @@
           <file leaf-file-name="presentation.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/presentation.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+                <state relative-caret-position="176">
+                  <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -64,11 +66,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_presentation.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_presentation.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_presentation.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+                <state relative-caret-position="304">
+                  <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -85,7 +87,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_contact.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_contact.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/_contact.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="96">
@@ -131,11 +133,20 @@
           <file leaf-file-name="talks.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/talks.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="128">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="155">
+                  <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_talks.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/_talks.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -158,7 +169,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="404.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="404.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/404.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="80">
@@ -209,7 +220,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.icons</find>
       <find>inner</find>
       <find>.icon</find>
       <find>base/pag</find>
@@ -235,10 +245,11 @@
       <find>#header</find>
       <find>nav {</find>
       <find>images/</find>
-      <find>resolutions</find>
       <find>propTypes</find>
       <find>a {</find>
       <find>gatsby-link</find>
+      <find>resolutions</find>
+      <find>small</find>
     </findStrings>
     <replaceStrings>
       <replace>Portfolio</replace>
@@ -246,8 +257,8 @@
       <replace>&quot;</replace>
       <replace>&quot;img&quot;</replace>
       <replace>.menu {</replace>
-      <replace>sizes</replace>
       <replace>div.menu {</replace>
+      <replace>sizes</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/assets/scss</dir>
@@ -283,21 +294,21 @@
         <option value="$PROJECT_DIR$/src/assets/scss/components/_form.scss" />
         <option value="$PROJECT_DIR$/src/pages/contact.js" />
         <option value="$PROJECT_DIR$/src/pages/success.js" />
-        <option value="$PROJECT_DIR$/src/assets/scss/pages/_talks.scss" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
         <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/components/headshot.js" />
-        <option value="$PROJECT_DIR$/src/pages/talks.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/pages/_contact.scss" />
         <option value="$PROJECT_DIR$/src/components/youtube.js" />
-        <option value="$PROJECT_DIR$/src/components/presentation.js" />
-        <option value="$PROJECT_DIR$/src/assets/scss/components/_presentation.scss" />
         <option value="$PROJECT_DIR$/src/data/talks.json" />
         <option value="$PROJECT_DIR$/src/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/pages/_404.scss" />
         <option value="$PROJECT_DIR$/src/pages/404.js" />
+        <option value="$PROJECT_DIR$/src/components/presentation.js" />
+        <option value="$PROJECT_DIR$/src/pages/talks.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/pages/_talks.scss" />
+        <option value="$PROJECT_DIR$/src/assets/scss/components/_presentation.scss" />
       </list>
     </option>
   </component>
@@ -457,12 +468,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527542298111</updated>
       <workItem from="1527542300564" duration="9595000" />
-      <workItem from="1527597055200" duration="30361000" />
+      <workItem from="1527597055200" duration="30937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39956000" />
+    <option name="totallyTimeSpent" value="40532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="723" extended-state="6" />
@@ -659,13 +670,6 @@
     <entry file="file://$PROJECT_DIR$/src/images/talks/angularStyleGuides.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/_talks.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -741,16 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/talks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/youtube.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -778,16 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/presentation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/talks.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -809,13 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_presentation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/_contact.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -834,6 +811,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/talks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/_talks.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/presentation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_presentation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
         </state>
       </provider>
     </entry>
