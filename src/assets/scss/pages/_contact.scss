@@ -3,30 +3,4 @@
   padding: 2.5rem 2.5rem 0 2.5rem;
   border-radius: 4px;
   border: 1px solid rgb(204, 204, 204);
-
-  .content {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border-style: solid;
-    border-color: _palette(border);
-    border-top-width: _size(border-width);
-    border-bottom-width: _size(border-width);
-    max-width: 100%;
-
-    .inner {
-      @include vendor('transition', (
-              'max-height #{_duration(intro)} ease',
-              'padding #{_duration(intro)} ease',
-              'opacity #{_duration(article)} ease-in-out'
-      ));
-      @include vendor('transition-delay', '0.25s');
-      padding: 3rem 2rem;
-      max-height: 40rem;
-      overflow: hidden;
-
-      > :last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
 }

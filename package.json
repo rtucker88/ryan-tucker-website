@@ -5,6 +5,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.247",
+    "gatsby-image": "^1.0.51",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
@@ -12,6 +13,7 @@
     "gatsby-remark-copy-linked-files": "^1.5.32",
     "gatsby-remark-images": "^1.5.63",
     "gatsby-source-filesystem": "^1.5.36",
+    "gatsby-transformer-json": "^1.0.19",
     "gatsby-transformer-remark": "^1.7.41",
     "gatsby-transformer-sharp": "^1.6.24",
     "react-helmet": "^5.2.0",

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Angular 101",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ut. Slides at https://slides.com/ryantucker/angular-101",
+    "img": "angular101.png",
+    "link": "https://www.youtube.com/watch?v=mTj_nSSe9Ck"
+  },
+  {
+    "title": "Angular 2: An Introduction",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ut.",
+    "img": "angular2AnIntroduction.png",
+    "link": "https://slides.com/ryantucker/deck"
+  },
+  {
+    "title": "AngularJS and Socket.IO",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ut.",
+    "img": "angularAndSocketIO.png",
+    "link": "https://slides.com/ryantucker/socket-io-and-angular-js"
+  },
+  {
+    "title": "AngularJS Style Guides",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ut.",
+    "img": "angularStyleGuides.png",
+    "link": "https://slides.com/ryantucker/angularjs-style-guides"
+  },
+  {
+    "title": "Introduction to ExpressJS",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ut. Slides at https://slides.com/ryantucker/express-js",
+    "img": "expressJS.png",
+    "link": "https://www.youtube.com/watch?v=4IHOgBYtjjE"
+  }
+]

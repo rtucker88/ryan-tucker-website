@@ -40,15 +40,16 @@
 @import 'components/list';
 //@import 'components/table';
 @import 'components/button';
+@import 'components/presentation';
 
 // Layout.
 
 @import 'layout/bg';
 @import 'layout/wrapper';
 @import 'layout/header';
-@import 'layout/main';
 //@import 'layout/footer';
 
 // Pages
 @import 'pages/home';
 @import 'pages/contact';
+@import 'pages/talks';

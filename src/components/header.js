@@ -54,7 +54,7 @@ class Header extends React.Component {
       <header id="header">
         <nav>
           <ul>
-            <li className={'menu'}><a href="javascript:;" onTouchEnd={this.openModal} onClick={this.openModal}>Menu</a>
+            <li className="menu"><a onClick={this.openModal}>Menu</a>
             </li>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/portfolio">Portfolio</Link></li>
