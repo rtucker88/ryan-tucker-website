@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655c47d3-2f69-451d-99aa-a6d71afc2308" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/background.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/libs/_resolution.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/background@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/background@3x.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_bg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_bg.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/background.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +40,7 @@
             <entry file="file://$PROJECT_DIR$/src/components/header.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="281">
-                  <caret line="76" column="49" lean-forward="true" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
+                  <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -186,8 +190,8 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+                <state relative-caret-position="-278">
+                  <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -195,8 +199,17 @@
           <file leaf-file-name="_bg.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_bg.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+                <state relative-caret-position="345">
+                  <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_resolution.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/assets/scss/libs/_resolution.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="387">
+                  <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -234,8 +247,8 @@
       <find>images/</find>
       <find>propTypes</find>
       <find>a {</find>
-      <find>small</find>
       <find>gatsby-link</find>
+      <find>small</find>
       <find>resolutions</find>
     </findStrings>
     <replaceStrings>
@@ -257,7 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/assets/scss/layout/_bg.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/libs/_functions.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/libs/_skel.scss" />
@@ -295,8 +307,10 @@
         <option value="$PROJECT_DIR$/src/assets/scss/components/_presentation.scss" />
         <option value="$PROJECT_DIR$/src/pages/success.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/pages/_success.scss" />
-        <option value="$PROJECT_DIR$/src/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/libs/_resolution.scss" />
+        <option value="$PROJECT_DIR$/src/assets/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/assets/scss/layout/_bg.scss" />
       </list>
     </option>
   </component>
@@ -393,6 +407,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ryan-tucker-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ryan-tucker-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -473,15 +495,16 @@
       <option name="presentableId" value="Default" />
       <updated>1527542298111</updated>
       <workItem from="1527542300564" duration="9595000" />
-      <workItem from="1527597055200" duration="32129000" />
+      <workItem from="1527597055200" duration="33200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41724000" />
+    <option name="totallyTimeSpent" value="42795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="723" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Messages" order="1" />
@@ -513,10 +536,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/css/fontawesome.min.css" />
-    <entry file="file://$PROJECT_DIR$/src/assets/css/fontawesome-all.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_list.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -817,36 +836,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/background.JPG">
+    <entry file="file://$PROJECT_DIR$/src/images/background.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/background.JPG">
+    <entry file="file://$PROJECT_DIR$/src/images/background.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="76" column="49" lean-forward="true" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
+          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/overlay.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/base/page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/libs/_resolution.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_bg.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="345">
+          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
         </state>
       </provider>
     </entry>

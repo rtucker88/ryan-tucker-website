@@ -51,6 +51,14 @@
     background-size:		cover;
     background-repeat:		no-repeat;
     z-index: 1;
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image:		url('../../images/background@2x.jpg');
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi) {
+      background-image:		url('../../images/background@3x.jpg');
+    }
   }
 
   .body.is-article-visible & {
